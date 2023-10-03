@@ -1,0 +1,242 @@
+.react-calendar__navigation {
+  margin-top: -70px;
+
+  border-radius: 20px;
+
+  text-align: center;
+  position: relative;
+  font-size: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  background-color: #dff4ff;
+  border: 1px solid #707070;
+  border-radius: 14px;
+  color: #000;
+  margin-bottom: 33px;
+  box-shadow: 0px 10px 12px 0 rgb(25 42 70 / 7%);
+  transition: all 0.3s ease-in-out;
+}
+.react-calendar {
+  margin-top: 70px;
+  border-radius: 20px;
+  border: 1px solid #707070;
+  border-color: #dff4ff;
+}
+.react-calendar__month-view__weekdays {
+  color: #999999;
+}
+abbr:where([title]) {
+  text-decoration: none !important ;
+}
+.react-calendar__month-view__days__day--weekend {
+  color: #000;
+}
+.react-calendar__navigation__next2-button,
+.react-calendar__navigation__prev2-button {
+  display: none;
+}
+.react-calendar__navigation__next-button:hover {
+  background-color: #dff4ff !important;
+}
+.react-calendar__navigation__next-button:focus {
+  background-color: #dff4ff !important;
+}
+.react-calendar__navigation__prev-button:hover {
+  background-color: #dff4ff !important;
+}
+.react-calendar__navigation__prev-button:focus {
+  background-color: #dff4ff !important;
+}
+
+.react-calendar__navigation__label:hover {
+  background-color: #dff4ff !important;
+}
+.react-calendar__navigation__label:focus {
+  background-color: #dff4ff !important;
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .react-calendar__navigation,
+  .react-calendar {
+    width: 30vw;
+  }
+  .button-label {
+ 
+    padding: 1em !important;
+    
+  
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .react-calendar__navigation,
+  .react-calendar {
+    width: 63vw ;
+    margin-bottom: 50px;
+  }
+  .timedv {
+  display: block !important;
+ 
+}
+.w9t{
+    margin-left: -10px;
+}
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.button-label {
+ 
+  padding: 1em ;
+  
+
+}
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .react-calendar__navigation,
+  .react-calendar {
+    width: 90vw;
+  }
+}
+/* Portrait phones and smaller */
+@media (min-width: 993px) and (max-width: 1000px) {
+  .react-calendar__navigation,
+  .react-calendar {
+    width: 300px;
+  }
+}
+@media (max-width: 569px) {
+ 
+  .react-calendar {
+    width: 93vw;
+  }
+  .react-calendar__navigation{
+    width: 87vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .react-calendar__navigation,
+  .react-calendar {
+    width: 31vw;
+  }
+
+}
+@media (min-width: 1200px) {
+  .react-calendar__navigation,
+  .react-calendar {
+    width: 31vw;
+  }
+  .button-label {
+ 
+    width: 130px;
+    
+  
+  }
+
+}
+@media (min-width: 1680px)  {
+
+  .button-label {
+ 
+    width: 170px !important;
+    
+  
+  }
+
+}
+
+.bxsst {
+  background-color: transparent;
+  border-radius: 5px;
+  
+
+ 
+}
+
+
+
+
+
+  
+  .timedv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.react-calendar{
+    box-shadow: 0px 10px 12px 0 rgb(25 42 70 / 7%);
+    transition: all 0.3s ease-in-out;
+    height: 77%;
+}
+.erp{
+    background: #DBD4FF !important;
+    color: #fff !important;
+    box-shadow: 0px 10px 12px 0 rgb(25 42 70 / 7%);
+    transition: all .3s ease-in-out;
+    border: none;
+padding: 1.1rem 1.267rem;
+border-radius: 0.267rem;
+}
+.erp h1{
+    color: #3E2A80;
+}
+
+
+.button-wrap {
+  position: relative;
+  text-align: center;
+ 
+  
+}
+
+
+.button-label {
+  display: inline-block;
+  padding: 1.5em ;
+  
+  cursor: pointer;
+ 
+  border-radius: 0.25em;
+  background: #DFF4FF;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+  transition: 0.3s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+
+.button-label:active {
+  transform: translateY(2px);
+  box-shadow: 0px 10px 12px 0 rgb(25 42 70 / 7%);
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+input:checked + .button-label {
+  background: #3E2A80;
+  color: #efefef;
+}
+input:checked + .button-label:hover {
+  background: #3E2A80;
+  color: #e2e2e2;
+}
+
+.hidden {
+  display: none;
+}
+  /* Checked */
+  
+
+  
+ 
+  
+  
